@@ -1,0 +1,84 @@
+
+
+	/** {box-sizing: border-box}*/
+
+.mySlides {display: none}
+
+img.display_img {
+
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0 10px 0;
+
+  box-shadow: 3px 3px 10px rgba(0, 26, 51, 0.5);
+   
+}
+
+/* Slideshow container */
+.slideshow {
+  width: 100%;
+  background-color: rgba(0, 13, 26, 0.9);
+  padding: 0;
+  position: relative;
+  margin-top: 20px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  color: gray;
+  font-weight: bold;
+  font-size: 18px;
+
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;  
+  
+  transition: 0.6s ease;
+/*  border: solid 1px black;*/
+  user-select: none;
+  background-color: rgba(0,0,0, 0.1);
+
+}
+
+/* Position the button to the end of the page */
+.prev {
+  border-radius: 3px 0 0 3px;
+  left: 0;
+
+}
+.next {
+  border-radius: 3px 0 0 3px;
+  right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  color: white;
+  background-color: rgba(0,0,0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  text-shadow: 2px 2px 2px rgba(10,10,10, 0.4); 
+  font-size: 15px;
+
+  position: absolute;
+  bottom: 28px;
+  left: 6px;
+  width: 100%;
+  text-align: center;
+
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+

@@ -1,0 +1,70 @@
+	#graphic, #photo, #painting {
+		background-repeat: no-repeat;
+		
+		background-size: 100%;
+		position: relative;
+		border-collapse: collapse;
+		border: solid 1px rgb(0, 0, 0);
+	}
+	
+	#graphic {background-image: url(../images/postLink.jpg);}
+	#photo {background-image: url(../images/photoLink.jpg);}
+	#painting {background-image: url(../images/paintLink.jpg);}
+
+	.tab {
+		color: #e6e6ff;
+		margin-top: 100px;
+		padding: 5px;
+		background-color: rgba(102,79,124);
+
+	}
+	
+
+	button.view {
+		font-size: 1em;
+		opacity: 0;
+		margin-top: 100px;
+		width: 200px;
+		padding: 20px;
+		
+	}
+	button.view:hover {
+		opacity: 1;
+		color: white;
+		text-transform: uppercase;
+		border: 2px solid white;
+		background-color: rgba(0,0,0, 0.6);
+	}
+
+	article#portfolios {
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+		
+
+	}
+
+	div.portfolio {
+		text-align: center;
+		font-size: 1.2em;
+		text-transform: uppercase;
+
+		width: 350px;
+		height: 298px;
+		
+		display: inline-block;
+		margin-left: 22px;
+		margin-bottom: 22px;
+		position: relative;
+
+	}
+@media only screen and (max-device-width: 400px) {
+	#graphic, #photo, #painting {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px 100px;
+    }
+
+ 
+}
+

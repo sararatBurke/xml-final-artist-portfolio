@@ -1,0 +1,71 @@
+/*Title font style from Google*/
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&display=swap');
+
+
+header {
+	max-width: 100%;
+	color: #fff;
+	padding: 5px 50px;
+	background-color: rgba(11, 42, 60, 0.9);
+	}
+
+#title {
+	font-family: 'Elsie Swash Caps', cursive;
+	font-size: 40px;
+}
+
+a#visited {background-color: #0086b3;}
+
+a.headLink {
+	color: #fff;
+	font-size: 0.9em;
+	color: #fff;
+	font-family: Helvetica;
+	/*font-weight: bold;*/
+	text-transform: uppercase;
+	text-decoration: none;
+
+	padding: 80px 15px 30px 15px;
+	border-radius: 10px;
+}
+
+a.headLink:hover {
+	text-shadow: 1px 1px rgba(0, 68, 102, 0.6);
+	background-color: #006699;
+}
+
+nav {
+	margin-top: -20px;
+	float: right;
+	display: inline-block;
+}
+
+
+#content {
+	margin: 0;
+}
+
+
+article {
+	margin: 0 50px ;
+}
+
+footer {
+	color: #fff;
+	padding: 5px 50px;
+	background-color: rgb(11, 42, 60);
+
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+body {
+	font-family: Arial;
+	max-width: 1920px;
+	max-height: 100%;
+	margin: auto;
+
+
+}

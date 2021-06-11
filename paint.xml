@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   XML final project Portfolio(painting page)
+   Author: Sararat Burke
+   Date:  11/12/2020 
+
+   Filename:  paint.xml
+   Supporting Files: paint.xsl, paint.css
+   
+-->
+<!DOCTYPE pics [
+
+<!ELEMENT pics ANY>
+<!ELEMENT pic (td+)>
+<!ELEMENT td (image, type, content)>
+
+
+<!ATTLIST image width CDATA #REQUIRED>
+<!ATTLIST image height CDATA #REQUIRED>
+
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT content (#PCDATA)>
+]>
+
+
+<?xml-stylesheet type="text/xsl" href="paint.xsl"?>
+<pics>
+   <pic>
+         <td>
+            <image width="150" height="120">winter.jpg</image>
+            <type>Acrylic</type>
+            <content>Winter</content>
+         </td>
+
+         <td>
+            <image width="150" height="120">summer.jpg</image>
+            <type>Acrylic</type>
+            <content>Summer</content>
+         </td>
+
+         <td>
+            <image width="150" height="120">kaiser.jpg</image>
+            <type>Digital</type>
+            <content>Kaiser</content>
+         </td>
+
+         <td>
+            <image width="150" height="120">models.jpg</image>
+            <type>Acrylic</type>
+            <content>Model painting</content>
+         </td>
+   </pic>
+
+</pics>
